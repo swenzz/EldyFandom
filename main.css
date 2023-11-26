@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header h1,
+.container_welcome h2,
+#h2_boss,
+.container_boss h3,
+.container_buy h2 {
+    font-family: 'Kanit', sans-serif;
+}
+
+header li a,
+p,
+.container_buy form button {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: black;
+    color: #F2BD41;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    height: 85px;
+    align-items: center;
+}
+
+.container_header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 310px;
+}
+
+header li {
+    display: inline;
+    margin-left: 16px;
+}
+
+header li a {
+    text-decoration: none;
+    color: #e6e6e5;
+}
+
+header li a:hover {
+    color: #F2BD41;
+}
+
+.container,
+.container_welcome,
+.container_boss {
+    max-width: 1500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+main {
+    background-color: #013332;
+    padding-top: 80px;
+} 
+
+.container_welcome {
+    background-color: rgba(0, 0, 0, 0.337);
+    padding-right: 40px;
+}
+
+#Capa_Elden {
+    height: 500px;
+    margin: 16px 20px;
+    margin-right: 50px;
+    border-radius: 2%;
+}
+
+.div_welcome {
+    color: #e6e6e5;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 100px 30px;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 2%;
+}
+
+#background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('erdtree-elden-ring.gif');
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+   }
+
+
+#h2_welcome {
+    margin-bottom: 40px;
+    color: #F2BD41;
+}
+
+.Div_h2_boss {
+    max-width: 1500px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#h2_boss {
+    background-color: rgba(0, 0, 0, 0.349);
+    color: #F2BD41;
+    text-align: center;
+    padding: 16px;
+}
+
+.container_boss {
+    background-color: rgba(0, 0, 0, 0.349);
+    color: #e6e6e5;
+    padding: 0px 10px 20px 10px;
+    margin-bottom: 30px;
+}
+
+
+.malenia {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 10px;
+    border-radius: 2%;
+    max-height: 580px;
+    padding-bottom: 10px;
+    transition: all 0.3s ease;
+}
+
+.malenia:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transform: translateY(-10px);
+}
+
+.radahn {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 10px;
+    border-radius: 2%;
+    max-height: 580px;
+    padding-bottom: 10px;
+    transition: all 0.3s ease;
+}
+
+.radahn:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transform: translateY(-10px);
+}
+
+.godfrey {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 10px;
+    border-radius: 2%;
+    max-height: 580px;
+    padding-bottom: 10px;
+    transition: all 0.3s ease;
+}
+
+.godfrey:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transform: translateY(-10px);
+}
+
+.container_boss h3 {
+    margin-left: 20px;
+    color: #F2BD41;
+}
+
+.container_boss p {
+    margin-left: 10px;
+}
+
+figure img {
+    height: 280px;
+    width: 450px;
+    padding: 0 14px;
+    margin-left: 5px;
+}
+
+.container_boss p {
+    width: 400px;
+    padding: 0 16px;
+}
+
+.Social_link img {
+    height: 24px;
+    margin-top: 10px;
+}
+
+.Social_link li {
+    display: inline;
+    margin-right: 16px;
+    margin-left: 24px;
+}
+
+.Social_link li a{
+    text-decoration: none;   
+}
+
+#buy_game .container {
+    display: block;
+    margin-top: 20px;
+    color: #F2BD41;
+}
+
+.container_buy {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.349);
+}
+
+.div_buy {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 95px;
+}
+
+.div_grups {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.div_buy button {
+    padding: 8px 20px;
+    margin-top: 10px;
+    margin-left: 80px;
+    background-color: rgba(0, 0, 0, 0.506);
+    color: #F2BD41;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+}
+
+.div_buy button:hover {
+    background-color: rgba(17, 17, 17, 0.506);
+    color: #e6e6e5;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    resize: none;
+}
+
+.div_formu h2 {
+    margin-top: 10px;
+}
+
+form button {
+    background-color: rgba(0, 0, 0, 0.506);
+    color: #F2BD41;
+}
+
+.div_formu button:hover {
+    background-color: rgba(17, 17, 17, 0.506);
+    color: #e6e6e5;
+}
+
+footer {
+    background-color: black;
+    color: #F2BD41;
+    text-align: center;
+    padding: 12px;
+}
+
+   
